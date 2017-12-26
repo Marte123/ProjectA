@@ -1,0 +1,16 @@
+﻿-------------------------------------    MediaContext    --------------------------------------------
+
+Enable-Migrations -ContextTypeName MediaContext -MigrationsDirectory Migrations\MediaFolder
+
+add-migration -ConfigurationTypeName  ProjectA.Migrations.MediaFolder.Configuration "InitialCreate"
+
+update-database -ConfigurationTypeName ProjectA.Migrations.MediaFolder.Configuration
+
+-------------------------------    ApplicationDbContext   --------------------------------------------
+
+Enable-Migrations -ContextTypeName ApplicationDbContext -MigrationsDirectory Migrations\Identity
+
+add-migration -ConfigurationTypeName  ProjectA.Migrations.Identity.Configuration "InitialIdentity"
+
+update-database -ConfigurationTypeName ProjectA.Migrations.Identity.Configuration
+

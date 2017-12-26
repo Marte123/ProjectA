@@ -1,0 +1,66 @@
+﻿@model ProjectA.Models.Entertainment.Actor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Actor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie.Genre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Movie.Genre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Born)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Born)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KnownFor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KnownFor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PersonalDetails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PersonalDetails)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ActorId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
