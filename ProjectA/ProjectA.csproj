@@ -249,6 +249,7 @@
     <Content Include="Content\Images\img5.png" />
     <Content Include="Content\Images\img6.png" />
     <Content Include="Content\Images\movie.png" />
+    <Content Include="Content\Images\threesome.png" />
     <Content Include="Content\MyTemplate\gulpfile.js" />
     <Content Include="Content\MyTemplate\index.html" />
     <Content Include="Docs\Migrations.txt" />
