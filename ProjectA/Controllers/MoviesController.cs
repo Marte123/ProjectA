@@ -11,7 +11,7 @@ using ProjectA.Models.Entertainment;
 
 namespace ProjectA.Controllers
 {
-  [Authorize (Roles ="Guest")]
+  [Authorize (Roles ="Admin")]
     public class MoviesController : Controller
     {
         private MediaContext db = new MediaContext();

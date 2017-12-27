@@ -202,7 +202,6 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
-    <Compile Include="Data\Customer.cs" />
     <Compile Include="Data\DataClass.cs" />
     <Compile Include="Data\MediaContext.cs" />
     <Compile Include="Global.asax.cs">
